@@ -15,7 +15,7 @@ jobs:
       - name: devcard
         uses: dailydotdev/action-devcard@2.0.2
         with:
-          devcard_id: a6f31a172df14d5c83ec9bb07d739e49
+          devcard_id: ${{ secrets.DEVCARD_ID }}
 
 # # This is a basic workflow to help you get started with Actions
 
